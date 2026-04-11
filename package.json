@@ -1,0 +1,19 @@
+{
+  "name": "chatbot-widget",
+  "version": "2.0.0",
+  "description": "Embeddable AI chatbot widget \u2014 Phase 2",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node init && node server.js",
+    "dev": "node init && node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "mongoose": "^8.5.1",
+    "openai": "^4.52.7"
+  }
+}
